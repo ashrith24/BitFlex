@@ -1,0 +1,16 @@
+# Installed packages and generated production output.
+node_modules/
+dist/
+
+# Local machine files and environment secrets.
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+Thumbs.db
+
+# Debug and tool logs.
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
